@@ -32,13 +32,24 @@ ul {
 
 .header {
   display: flex;
+  padding: 5px;
 }
 
 .left-links {
   display: flex;
+  gap: 10px;
 }
 
 .right-links {
   display: flex;
   margin-left: auto;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
